@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import { Group, Div } from '@vkontakte/vkui';
+import React, {Component} from 'react';
+import {Group, Div} from '@vkontakte/vkui';
 
 import MeetBoxAdmin from './MeetBoxAdmin';
-import { getMessage } from '../js/helpers';
+import {getMessage} from '../js/helpers';
 
 class MeetList extends Component {
 
     render() {
-        const { meets, setParentState } = this.props;
+        const {meets, setParentState} = this.props;
         if (!meets) return null
         return (
             <Group className="transparentBody MeetList">

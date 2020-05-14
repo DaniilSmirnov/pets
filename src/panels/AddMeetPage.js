@@ -278,12 +278,12 @@ class AddMeetPage extends Component {
                             size="xl"
                             disabled={!this.checkIfAllOk(name, description, start, finish, photo, accept) && attemp}
                             style={{marginTop: -12}} onClick={() => {
-                                setParentState({
-                                    attemp: attemp + 1
-                                })
-                                if(!this.checkIfAllOk(name, description, start, finish, photo, accept)){
-                                    return;
-                                }
+                            setParentState({
+                                attemp: attemp + 1
+                            })
+                            if (!this.checkIfAllOk(name, description, start, finish, photo, accept)) {
+                                return;
+                            }
                             this.AddMeet();
                         }}>
                             {this.state.disabled ? <Spinner/> : formLang.add}
