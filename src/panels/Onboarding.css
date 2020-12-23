@@ -1,0 +1,45 @@
+.Meeting {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.Meeting_info {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Meeting_name {
+    font-size: 24px;
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-family: var(--font-tt);
+    font-size: 25px;
+}
+
+.subtitle {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+/*{
+    --background_page: #fff;
+}*/
+@font-face {
+    font-family: "SF Display";
+    font-weight: 400;
+    src: url("https://sf.abarba.me/SF-UI-Display-Regular.otf");
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap&subset=cyrillic');
+
+#success {
+    color: rgb(153, 200, 137);
+}
